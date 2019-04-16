@@ -1,7 +1,7 @@
 {
-  "name": "github-org-stats",
+  "name": "github-org-reporter",
   "version": "1.0.0",
-  "description": "",
+  "description": "Generate reports with statistics from github organizations",
   "main": "index.mjs",
   "bin": {
     "github-org-stats": "./index.mjs"
@@ -9,9 +9,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["github","stats","report","org"],
+  "bugs": {
+    "url": "https://github.com/densebrain/github-org-reporter/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/densebrain/github-org-reporter.git"
+  },
+  "author": "Jonathan Glanz",
+  "license": "MIT",
   "dependencies": {
     "@octokit/plugin-retry": "^2.2.0",
     "@octokit/rest": "^16.24.1",
