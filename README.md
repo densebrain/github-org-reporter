@@ -5,13 +5,13 @@ Export GH org stats to excel or other output formats.  Currently only excel is s
 ## Install
 
 ```bash
-npm i -g github-org-stats
+npm i -g github-org-reporter
 ```
 
 ## Run
 
 ```bash
-github-org-stats \ 
+github-org-reporter \ 
 	-v \
 	--org Signafy \
 	--repo-exclude-filter "(pattern1|pattern2)" \

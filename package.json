@@ -4,7 +4,7 @@
   "description": "Generate reports with statistics from github organizations",
   "main": "index.mjs",
   "bin": {
-    "github-org-stats": "./index.mjs"
+    "github-org-reporter": "./index.mjs"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
