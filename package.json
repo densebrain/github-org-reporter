@@ -1,0 +1,29 @@
+{
+  "name": "github-org-stats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "bin": {
+    "github-org-stats": "./index.mjs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/plugin-retry": "^2.2.0",
+    "@octokit/rest": "^16.24.1",
+    "exceljs": "^1.9.0",
+    "lodash": "^4.17.11",
+    "shelljs": "^0.8.3",
+    "yargs": "^13.2.2"
+  },
+  "devDependencies": {
+    "@types/exceljs": "^0.5.3",
+    "@types/lodash": "^4.14.123",
+    "@types/shelljs": "^0.8.5",
+    "@types/yargs": "^13.0.0"
+  }
+}
